@@ -18,6 +18,8 @@ jobs:
       run: bundle install
     - name: Pod Install
       run: pod install
+    - name: SwiftLint
+      uses: norio-nomura/action-swiftlint@3.1.0
     - name: Build and Test
       run: |
         fastlane scan
