@@ -14,8 +14,8 @@
 		CFC1CF1124E308B8002C542C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC1CF0F24E308B8002C542C /* Main.storyboard */; };
 		CFC1CF1324E308BA002C542C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC1CF1224E308BA002C542C /* Assets.xcassets */; };
 		CFC1CF1624E308BA002C542C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC1CF1424E308BA002C542C /* LaunchScreen.storyboard */; };
-		CFC1CF2124E308BA002C542C /* GithubActionsFastlaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1CF2024E308BA002C542C /* GithubActionsFastlaneTests.swift */; };
-		CFC1CF2C24E308BA002C542C /* GithubActionsFastlaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1CF2B24E308BA002C542C /* GithubActionsFastlaneUITests.swift */; };
+		CFC1CF2124E308BA002C542C /* GithubActions-FastlaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1CF2024E308BA002C542C /* GithubActions-FastlaneTests.swift */; };
+		CFC1CF2C24E308BA002C542C /* GithubActions-FastlaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1CF2B24E308BA002C542C /* GithubActions-FastlaneUITests.swift */; };
 		D25A74BA1F8379E86155EED5 /* Pods_GithubActions_FastlaneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A8B59BAFBAC5AF683AB1BA /* Pods_GithubActions_FastlaneTests.framework */; };
 		F26461C26BC6EFF2B415DC9B /* Pods_GithubActions_Fastlane_GithubActions_FastlaneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754618F38BE0161E11838511 /* Pods_GithubActions_Fastlane_GithubActions_FastlaneUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,10 +53,10 @@
 		CFC1CF1524E308BA002C542C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC1CF1724E308BA002C542C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC1CF1C24E308BA002C542C /* GithubActions-FastlaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GithubActions-FastlaneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFC1CF2024E308BA002C542C /* GithubActionsFastlaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubActionsFastlaneTests.swift; sourceTree = "<group>"; };
+		CFC1CF2024E308BA002C542C /* GithubActions-FastlaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GithubActions-FastlaneTests.swift"; sourceTree = "<group>"; };
 		CFC1CF2224E308BA002C542C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC1CF2724E308BA002C542C /* GithubActions-FastlaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GithubActions-FastlaneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFC1CF2B24E308BA002C542C /* GithubActionsFastlaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubActionsFastlaneUITests.swift; sourceTree = "<group>"; };
+		CFC1CF2B24E308BA002C542C /* GithubActions-FastlaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GithubActions-FastlaneUITests.swift"; sourceTree = "<group>"; };
 		CFC1CF2D24E308BA002C542C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D65D732D40641B1C17672A1D /* Pods-GithubActions-Fastlane-GithubActions-FastlaneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubActions-Fastlane-GithubActions-FastlaneUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubActions-Fastlane-GithubActions-FastlaneUITests/Pods-GithubActions-Fastlane-GithubActions-FastlaneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF46C2EFBE4FFDF8B0E0E046 /* Pods-GithubActions-Fastlane.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubActions-Fastlane.debug.xcconfig"; path = "Target Support Files/Pods-GithubActions-Fastlane/Pods-GithubActions-Fastlane.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		CFC1CF1F24E308BA002C542C /* GithubActions-FastlaneTests */ = {
 			isa = PBXGroup;
 			children = (
-				CFC1CF2024E308BA002C542C /* GithubActionsFastlaneTests.swift */,
+				CFC1CF2024E308BA002C542C /* GithubActions-FastlaneTests.swift */,
 				CFC1CF2224E308BA002C542C /* Info.plist */,
 			);
 			path = "GithubActions-FastlaneTests";
@@ -152,7 +152,7 @@
 		CFC1CF2A24E308BA002C542C /* GithubActions-FastlaneUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CFC1CF2B24E308BA002C542C /* GithubActionsFastlaneUITests.swift */,
+				CFC1CF2B24E308BA002C542C /* GithubActions-FastlaneUITests.swift */,
 				CFC1CF2D24E308BA002C542C /* Info.plist */,
 			);
 			path = "GithubActions-FastlaneUITests";
@@ -416,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC1CF2124E308BA002C542C /* GithubActionsFastlaneTests.swift in Sources */,
+				CFC1CF2124E308BA002C542C /* GithubActions-FastlaneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC1CF2C24E308BA002C542C /* GithubActionsFastlaneUITests.swift in Sources */,
+				CFC1CF2C24E308BA002C542C /* GithubActions-FastlaneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
