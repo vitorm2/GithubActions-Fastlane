@@ -18,6 +18,8 @@ jobs:
     name: Build
     runs-on: macOS-latest
     steps:
+    - name: Checkout project
+      uses: actions/checkout@v1
     - name: Bundle Install
       run: bundle install
     - name: Pod Install
