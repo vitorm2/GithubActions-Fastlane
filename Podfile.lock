@@ -1,0 +1,16 @@
+PODS:
+  - didicloud (0.2.8)
+
+DEPENDENCIES:
+  - didicloud
+
+SPEC REPOS:
+  trunk:
+    - didicloud
+
+SPEC CHECKSUMS:
+  didicloud: 8a56e7802501138238424e3b70909c8d0563b970
+
+PODFILE CHECKSUM: 3bfae96a35a53038b603050a32192c349660c6f2
+
+COCOAPODS: 1.9.3
